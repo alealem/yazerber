@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "YAZERBER PLC"
+title: "YAZERBER"
 excerpt: "Serving the Best Quality Products And Service"
 ---
 # Website is coming soon

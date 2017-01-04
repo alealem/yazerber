@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     /* we don't want the pseudo-elements sticking out */
     
-    max-width: 960px;
+    width: 960px;
 }
 
 .container svg {
@@ -33,11 +33,18 @@ section {
 /*** Individual section styles and separators ***/
 /* Common style for pseudo-elements */
 
-section::before,
+section::before{
+    position: absolute;
+    content: '';
+    pointer-events: none;
+}
+
 section::after {
     position: absolute;
     content: '';
     pointer-events: none;
+  right: 480px;
+    z-index: -1;
 }
 
 header section {
@@ -71,7 +78,7 @@ header p {
 }
 
 .color {
-    background-color: #4fd817
+    background-color: #50b427
 }
 
 .ss-style-doublediagonal {
@@ -126,11 +133,11 @@ section.main-content .input-group {
 }
 
 section.main-content .btn-danger {
-    background-color: #4fd817;
+    background-color: #50b427;
     min-width: 69px;
     font-size: 23px;
     padding: 0;
-    border-color: #4fd817;
+    border-color: #50b427;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
@@ -138,7 +145,7 @@ section.main-content .btn-danger {
 section.main-content .btn-danger:hover {
     background-color: #464646;
     border-color: #464646;
-    color: #4fd817;
+    color: #50b427;
 }
 
 section.main-content .form-control {
@@ -147,7 +154,7 @@ section.main-content .form-control {
 }
 
 section.main-content .form-control:focus {
-    border-color: #4fd817;
+    border-color: #50b427;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.2);
 }
 
@@ -179,7 +186,7 @@ section.footer p a {
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
-    background: #4fd817;
+    background: #50b427;
     color: white;
     padding-bottom: 10px;
 }
@@ -191,7 +198,7 @@ section.footer p a {
     z-index: -1;
     width: 125%;
     height: 105%;
-    background: #4fd817;
+    background: #50b427;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -202,7 +209,7 @@ section.footer p a {
 
 .footer::before {
     height: 50%;
-    background: #4fd817;
+    background:#50b427;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -212,6 +219,6 @@ section.footer p a {
 }
 
 .logo{
-    height: 80px;
-    width:150px;
+    height: 190px;
+    width:400px;
 }

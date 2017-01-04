@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: "Your Awesome Site"
+title: "Yazerber Animal Production Center"
 description: "A Coming Soon Template"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
@@ -18,11 +18,11 @@ countdown:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
-  google-plus:
-  instagramm:
+  name: yazerber
+  email: yazerber@gmail.com
+  twitter: yazerber
+  google-plus: yazerber
+  instagramm: yazerber
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
     url:
