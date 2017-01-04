@@ -37,7 +37,7 @@ section::before,
 section::after {
     position: absolute;
     content: '';
-    pointer-events: none;;
+    pointer-events: none;
 }
 
 header section {
@@ -147,7 +147,7 @@ section.main-content .form-control {
 }
 
 section.main-content .form-control:focus {
-    border-color: #50b427;
+    border-color: #FF0000;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.2);
 }
 
@@ -202,7 +202,7 @@ section.footer p a {
 
 .footer::before {
     height: 50%;
-    background:#50b427;
+    background: #50b427;
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
