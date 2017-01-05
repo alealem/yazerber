@@ -11,6 +11,7 @@ body {
     color: black;
     font-family: 'Open Sans', Arial, sans-serif;
     max-width: 100%;
+    min-height: 100vh;
 }
 
 .container {
@@ -176,11 +177,12 @@ section.footer p a {
 
 .footer {
     z-index: 1;
-    margin-top: 10%;
-    padding-top: 5px;
+    padding: 5px;
     background: #50b427;
     color: white;
-    padding-bottom: 10px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .footer::before,
