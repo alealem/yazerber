@@ -36,7 +36,6 @@ section {
 section::before,
 section::after {
     position: absolute;
-    content: '';
     pointer-events: none;
 }
 
