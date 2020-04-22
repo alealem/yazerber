@@ -1,42 +1,17 @@
-# Site wide configuration
+repository: alealem/yazerber
+name: yazerber
+baseurl: ""
+url: ""
+markdown: kramdown
+pygments: true
+excerpt_separator: <!--more-->
+paginate: 3
+paginate_path: "blog/page:num"
 
-title: "Yazerber Animal Production Center"
-description: "A Coming Soon Template"
-#if you modify locale please have a look at _data/messages.yml too
-locale: en
-#for meta name="author" :
-author: 
+plugins:
+  - jekyll-paginate
+  - jekyll-fontello
 
-#Target date in UTC / GMT
-countdown:
-  theme: red
-  year: 2017
-  month: 5
-  day: 1
-  hour: 10
-  minute: 50
-
-# Site owner
-owner:
-  name: yazerber
-  email: yazerber@gmail.com
-  twitter: yazerber
-  google-plus: yazerber
-  instagramm: yazerber
-  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
-  aboutlink:
-    url:
-    caption:
-
-
-# Jekyll configuration
-sass:
-  sass_dir: _sass
-  style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..2
-highlighter: rouge
-
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+gems:
+  - jekyll-font-awesome-sass
+  
