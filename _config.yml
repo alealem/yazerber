@@ -11,7 +11,4 @@ paginate_path: "blog/page:num"
 plugins:
   - jekyll-paginate
   - jekyll-fontello
-
-gems:
-  - jekyll-font-awesome-sass
   
